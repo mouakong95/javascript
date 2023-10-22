@@ -1,0 +1,59 @@
+
+GETTING STARTED WITH Git 
+
+**You dont need to clone the node modules because the package.json file
+  contains all the needed libraries in there. After cloning the files from 
+  git onto your local station, you can just run npm install and it should
+  instlall all the dependencies from package.json.**
+
+  - Install Git onto windows
+    - once installed, go to the environmental variables
+      - Path
+        - Add these 2 paths on there if not already
+          - C:\Program Files\Git\cmd
+          - C:\Program Files\Git\bin\git.exe
+  
+  - Once done, you can go to vs code and create a .gitignore file 
+    - in this case, we are ignoring all the items within the node_modules folder
+      so in that .gitignore file, we will specify the /node_modules
+    - open terminal and run the following command
+      - git init
+
+    - May need to set my email by running the command,
+      - config --global user.email "moua.kong95@gmail.com"
+      - config --global user.name "Kongmeng Moua"
+      - git commit -m "first commit" //to run
+
+
+  **if there are changes to a file, you will need to do the following**
+    - git add note.txt
+      - git init
+    
+    - git commit -m "first commit"
+      - git init
+        - git add .
+          - git remote add orgin https://github.com/mouakong95/tempRepo.git
+            - git branch -M main
+              - git push -u orgin main
+
+  **Pushing update to Git**
+    git add .
+    git commit -m "any message here"
+    git push -u orgin main
+
+
+**NPM***
+
+  - Running the npm command and adding a -D at the end labels that 
+    package as a devDependencies. 
+      - devDependencies: Lets the package know that this is only used
+        when developing but will not be used in production.
+
+  - **package.json (scripts)**
+    - under scripts you can create your own custom scripts to start or 
+      run something.
+        - Ex: i have "start": "node app.js"
+          - When i run "npm start" it will trigger the command  
+            "node app.js"
+    - Uninstalling packages
+      - npm uninstall fileNameHere

@@ -1,0 +1,23 @@
+Finding if a number is odd or even
+
+    let num1  = 21;
+    let num2 =  21 % 2;
+
+    By using the modulus 2, we if the result is 1 it is odd. Even will be 0.
+
+
+
+Getting user input through javascript
+    3-user_input
+
+
+
+Data Type conversions
+    4-datatype_conversion
+
+
+** DOM MANIPULATION **
+7-count_program
+
+
+https://www.youtube.com/watch?v=8dWL3wF_OMw @44:19
