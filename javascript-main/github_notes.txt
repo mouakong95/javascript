@@ -41,6 +41,8 @@ GETTING STARTED WITH Git
     git commit -m "any message here"
     git push -u orgin main
 
+  **FORCING A PUSH TO GIT**
+    git push -f orgin main
 
 **NPM***
 
