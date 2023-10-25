@@ -13,5 +13,7 @@
 let class1 = ["Spongebob", "patrick", "sandy"];
 let class2 = ["squid", "mr.krabs", "plankton"];
 
+
+//adding the spread operator ... unpacks the array and individually insert them
 class1.push(...class2);
 console.log(class1);
