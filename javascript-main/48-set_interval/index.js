@@ -18,3 +18,13 @@ function countUp() {
     clearInterval(myTime);
   }
 }
+
+//Passing arguments inside of a setInterval
+
+/*
+  const time = setInterval(countUp, 1000, num1, num2);
+
+  function countUp(num1, num2) {
+    ...
+  }
+*/
