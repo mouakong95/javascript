@@ -8,6 +8,7 @@
 //            the RESULT is what can be returned
 //            2 parts producing and consuming
 
+//IF it is successful it will invoke the resolve process if not it will invoke the reject
 const promise = new Promise((resolve, reject) => {
   
   let fileLoaded = true;
@@ -17,7 +18,7 @@ const promise = new Promise((resolve, reject) => {
     resolve("file loaded");
   }
   else {
-    console.log("file not loaded.");
+    reject("file not loaded.");
   }
 });
 

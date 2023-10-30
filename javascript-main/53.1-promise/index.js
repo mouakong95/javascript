@@ -16,6 +16,7 @@ promise.then( () => console.log("thanks for waiting"));
 
 // OR
 
+//passing an arguement time to the promise
 const wait = time => new Promise(resolve => {
   setTimeout(resolve, time);
 });
